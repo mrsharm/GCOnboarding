@@ -5,3 +5,4 @@ This repository contains the documents to help one get started in development ef
 ## Documents:
 
 1. [Quickly Getting Started](QuickGettingStarted.md).
+2. [Github Configurations to Join Appropriate Teams](GithubConfigurations.md)
