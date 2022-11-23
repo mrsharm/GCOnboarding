@@ -35,10 +35,10 @@ Writes log messages as text directly to a file using ``dprintf`` and the specifi
 Example configurations include:
 
 ```
-export COMPlus_GCLogEnabled: 1
-export COMPlus_GCLogFileSize: 100
-export COMPlus_GCLogFile: "C:\\Replace_Char_Custom\\Segments.log" 
-export COMPLUS_StressLog: 0
+export COMPlus_GCLogEnabled=1
+export COMPlus_GCLogFileSize=100
+export COMPlus_GCLogFile="C:\\Replace_Char_Custom\\Segments.log" 
+export COMPLUS_StressLog=0
 ```
 
 ## Printfs
