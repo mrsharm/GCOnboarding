@@ -17,7 +17,7 @@
       5. Type the following to get the latest updates: ``sudo apt update``.
       6. Install dependencies: ``sudo apt-get install -y cmake llvm-9 clang-9 \ build-essential python curl git lldb-6.0 liblldb-6.0-dev \ libunwind8 libunwind8-dev gettext libicu-dev liblttng-ust-dev \ libssl-dev libnuma-dev libkrb5-dev zlib1g-dev ninja-build``
       7. Build the runtime: ``./build.sh -configuration debug -subset clr``
-      8. Optional: You can generate a coreroot folder using ``.\src\tests\build.sh generatelayoutonly Release``
+      8. Optional: You can generate a coreroot folder using ``./src/tests/build.sh generatelayoutonly Release``
 
 ## Testing a Modified Runtime With A Simple Console App
 1. Create a new console app: ``dotnet new console``
