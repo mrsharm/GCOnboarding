@@ -8,6 +8,7 @@
       2. ``checked``: Optimizations and assertions.
       3. ``release``: Optimizations but no assertions.
    2. Optional: You can generate a coreroot folder using ``.\src\tests\build.cmd generatelayoutonly Release``
+   3. Quick cmake trick: ``cmake --build artifacts/obj/coreclr/linux.x64.Release/gc --target libclrgcexp.so --config Release``
 3. __Building on Linux__
    1. __Installing WSL__
       1. Open up a new Powershell Window in Admin mode and type: ``wsl --install -d Ubuntu-20.04``
@@ -18,6 +19,7 @@
       6. Install dependencies: ``sudo apt-get install -y cmake llvm-9 clang-9 \ build-essential python curl git lldb-6.0 liblldb-6.0-dev \ libunwind8 libunwind8-dev gettext libicu-dev liblttng-ust-dev \ libssl-dev libnuma-dev libkrb5-dev zlib1g-dev ninja-build``
       7. Build the runtime: ``./build.sh -configuration debug -subset clr``
       8. Optional: You can generate a coreroot folder using ``./src/tests/build.sh generatelayoutonly Release``
+      9. Quick cmake trick: ``cmake --build artifacts/obj/coreclr/linux.x64.Release  --target clrgcexp --config Release``
 
 ## Testing a Modified Runtime With A Simple Console App
 1. Create a new console app: ``dotnet new console``
