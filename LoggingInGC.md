@@ -2,7 +2,7 @@
 
 There are various ways to log messages from the GC and based on scaling critera.
 
-For Stress and Simple Logging, uncomment the following lines in gcpriv.h:
+For Stress and Simple Logging, uncomment the following lines in `gc.h`:
 
 ```c
 //#define TRACE_GC
